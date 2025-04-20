@@ -1,0 +1,11 @@
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation files('libs/okhttp-3.12.13.jar')
+    implementation files('libs/okio-1.15.0.jar')
+}
